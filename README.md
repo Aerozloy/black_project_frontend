@@ -8,7 +8,7 @@ Team: Makarov Ivan, Massaltseva Ksenia, Pshenichnyi Nikita, Zharov Vitalyi, Zhiv
 
 Website: HTML + CSS + JS.
 
-Frontend developer: Pshenichnyi Nikita.
+Frontend developer: Pshenichnyi Nikita + Massaltseva Ksenya + Makarov Ivan.
 
 DevOps engineer: Zhivodrov Ivan.
 
