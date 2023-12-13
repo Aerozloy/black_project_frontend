@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+  :root {
+    --font-inter: Inter;
+    --color-white: #fff;
+    --color-whitesmoke-100: #ebebeb;
+    --color-red: #ff0000;
+    --color-black: #000;
+    --br-29xl: 48px;
+    --br-133xl: 152px;
+    --position-absolute: absolute;
+    --left-1: 1vw;
+    --width-19: 19vw;
+    --top-26: 26vh;
+    --height-2: 2.5vh;
+    --font-size1: 1vh;
+    --cursor-pointer: pointer;
+    --border-0: 0;
+    --display-flex: flex;
+    --justify-content-center: center;
+  }
