@@ -1,4 +1,5 @@
 # black_project_frontend
+Electronic queue with a schedule
 
 Название: Электронная очередь для записи на лабораторные работы с расписанием.
 
