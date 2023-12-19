@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <meta name="author" content="Макаров Иван, Пшеничный Никита, Массальцева Ксения">
+    <link rel="stylesheet" href="../src/RandLGlobal.css" />
+    <link rel="stylesheet" href="../src/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+    />
+    <title>Вход</title>
+  </head>
+  <body>
+    <script src="login.js"></script>
+    <main class="rectangle-parent">
+      <section class="frame-child"></section>
+        <div class="frame-wrapper">
+          <div class="rectangle-group">
+            <input class="frame-item" type="text" name="login" placeholder="Ваш логин" />
+            <input class="frame-inner" type="password" name="password" placeholder="Ваш пароль" />
+            <button class="component" onclick="login()">
+              <div class="pm">Логин</div>
+            </button>
+            <div class="parent">
+              <button class="div" onclick="redirect_to_registration()">Зарегистрируйтесь</button>
+              <div class="div1">Нет аккаунта?</div>
+            </div>
+          <h1 class="h1">Войти</h1>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

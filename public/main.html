@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <meta name="author" content="Пшеничный Никита, Макаров Иван, Массальцева Ксения">
+    <link rel="stylesheet" href="../src/mainGlobal.css" />
+    <link rel="stylesheet" href="../src/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <title>Электронная очередь</title>
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <script>render()</script>
+
+
+    <section class="frame-child"></section>
+      <section class="frame-wrapper">
+        <div class="left-parent">
+          <div class="left">
+            <div class="frame-parent">
+              <div class="frame-group">
+
+                <div class="div" id="subject1" onclick="timetable_handler1()"></div>
+                      <div class="divT" id="teacher1"></div>
+
+                <div class="div" id="subject2" onclick="timetable_handler2()"></div>
+                      <div class="divT" id="teacher2"></div>
+
+                <div class="div" id="subject3" onclick="timetable_handler3()"></div>
+                      <div class="divT" id="teacher3"></div>
+
+                <div class="div" id="subject4" onclick="timetable_handler4()"></div>
+                      <div class="divT" id="teacher4"></div>
+                </div>
+
+                <h2 class="h2">Расписание</h2>
+              </div>
+            </div>
+            <div class="frame-parent3">
+              <div class="component-parent">
+                <div class="component" id="queue1"></div>
+                <div class="component" id="queue2"></div>
+                <div class="component" id="queue3"></div>
+                <div class="component" id="queue4"></div>
+              </div>
+                <h2 class="h21" id="current_subject"></h2>
+              <div class="jivoder">
+                <h2 class="h22" id="name">Name Surname</h2>
+              </div>
+            </div>
+            <div class="group-parent">
+              <button class="component4">
+                <div class="pm">Пропустить перед собой</div>
+              </button>
+              <button class="component5">
+                <div class="pm5">Выйти из аккаунта</div>
+              </button>
+              <button class="component6" onclick="add_in_queue()">
+                <div class="pm5">Занять очередь</div>
+              </button>
+              <button class="component7">
+                <div class="pm5" onclick="delete_from_queue()">Выйти из очереди</div>
+              </button>
+            </div>
+          </div>
+        </section>
+      <script>page()</script>
+      </body>
+</html>
