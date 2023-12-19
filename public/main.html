@@ -13,7 +13,7 @@
     <title>Электронная очередь</title>
   </head>
   <body>
-    <script src="index.js"></script>
+    <script src="main.js"></script>
     <script>render()</script>
 
 
@@ -53,21 +53,23 @@
               </div>
             </div>
             <div class="group-parent">
-              <button class="component4">
+              <button class="component4" onclick="pass_in_queue()">
                 <div class="pm">Пропустить перед собой</div>
               </button>
-              <button class="component5">
+              <button class="component5" onclick="logout()">
                 <div class="pm5">Выйти из аккаунта</div>
               </button>
               <button class="component6" onclick="add_in_queue()">
                 <div class="pm5">Занять очередь</div>
               </button>
-              <button class="component7">
-                <div class="pm5" onclick="delete_from_queue()">Выйти из очереди</div>
+              <button class="component7" onclick="delete_from_queue()">
+                <div class="pm5">Выйти из очереди</div>
               </button>
             </div>
           </div>
         </section>
       <script>page()</script>
+      </body>
+</html>
       </body>
 </html>
