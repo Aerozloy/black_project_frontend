@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+:root {
+  --color-gray-300: rgba(255, 255, 255, 0.08);
+  --color-white: #fff;
+  --color-blue: #578af9;
+  --top-0: 0;
+  --top-15vh: 15vh;
+  --left-0: 0;
+  --width-100vw: 100vw;
+  --width-33vw: 33vw;
+  --height-100vh: 100vh;
+  --height-4vh: 4vh;
+  --border-1px: 1px solid rgba(0, 0, 0, 0.4);
+  --position-absolute: absolute;
+  --left-4vw: 4vw;
+  --border-radius: 1vw;
+  --cursor-pointer: pointer;
+  --font-size-2vh: 2vh;
+  --font-size-1: 1.5vh;
+  --border-0: 0;
+}
