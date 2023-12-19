@@ -1,4 +1,34 @@
-﻿async function delete_from_queue() {
+﻿async function logout() {
+    localStorage.clear();
+    location.reload()
+}
+
+async function pass_in_queue() {
+    const token = localStorage.getItem('access_token')
+    let current_subject = document.getElementById('current_subject').textContent
+    if (current_subject != "") {
+          payload = {
+          'access_token': token,
+          'subject': subject
+        }
+        let user = await fetch('http://127.0.0.1:5000/delete_from_queue', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+            body: JSON.stringify(payload)
+        })
+        let result = await user.json()
+        alert(result['info'])
+    }
+    else {
+        alert('Сначала выберите предмет!')
+    }
+}
+
+
+
+async function delete_from_queue() {
     const token = localStorage.getItem('access_token')
     let current_subject = document.getElementById('current_subject').textContent
     if (current_subject != "") {
@@ -158,3 +188,4 @@ async function page() {
 
     //alert(result['name'])*   font-size: var(--font-size1);
 }
+    
